@@ -1,0 +1,111 @@
+/* ini tampilan awal css */
+*, body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* ini css untuk class navbar */
+.navbar {
+    width: 100svw;
+    display: flex;
+    background-color: crimson;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+
+.navbar .logo a {
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.navbar .logo a:hover {
+    color: white;
+    transition: ease-in-out .3s;
+}
+
+.navigation {
+    display: flex;
+}
+
+.navigation li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.navigation li a {
+    text-decoration: none;
+}
+
+.navigation li a:hover {
+    color: white;
+    transition: ease-in-out .3s;
+}
+
+
+/* ini css untuk hero */
+.hero {
+    width: 100svw;
+    min-height: 100svh;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 4rem;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.hero .img img {
+    max-width: 40rem;
+    height: 100%;
+}
+
+.hero .content {
+    max-width: 25rem;
+}
+
+.hero .content h1{
+    margin-bottom: .5rem;
+}
+
+.hero .content p{
+    margin-bottom: 1rem;
+}
+
+.hero .content button{
+    border: none;
+    background-color: crimson;
+    padding: .8rem;
+    color: white;
+    border-radius: 20px;
+}
+
+.hero .content button:hover{
+    cursor: pointer;
+    background-color: rgb(0, 197, 0);
+    padding: 1rem;
+    transition: ease-in-out .3s;
+}
+
+/* ini untuk tampilan mobile */
+@media (max-width: 760px) {
+    .navbar ul {
+        display: none;
+    }
+
+    .hero {
+        flex-direction: column;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .hero .img img {
+        max-width: 20rem;
+    }
+
+    .hero .content {
+        text-align: center;
+    }
+}
