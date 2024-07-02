@@ -13,4 +13,4 @@ jobs:
       with:
         server: ftp://stribez.com
         username: u135511789.pentas.satriacorp.id
-        password: Pentas@2024
+        password: ${{ secrets.FTP_PASSWORD }}
