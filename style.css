@@ -90,7 +90,7 @@
 }
 
 /* ini untuk tampilan mobile */
-@media (max-width: 760px) {
+@media (max-width: 900px) {
     .navbar ul {
         display: none;
     }
