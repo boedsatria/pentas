@@ -11,6 +11,6 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.1.0
       with:
-        server: ftp://stribez.com
+        server: ftp.stribez.com
         username: u135511789.pentas.satriacorp.id
         password: ${{ secrets.FTP_PASSWORD }}
