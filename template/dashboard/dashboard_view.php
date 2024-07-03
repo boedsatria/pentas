@@ -9,6 +9,24 @@
 						<div class="col-xl-12 card h-auto">
 							<div class="card-body">
 								<div class="row align-items-center">
+									<form>
+										<div>
+											<label>Nama</label>
+											<input>
+</div>
+										<div>
+											<label>Alamat</label>
+											<input>
+</div>
+										<div>
+											<label>No Telp</label>
+											<input>
+</div>
+</form>
+								</div>
+							</div>
+							<div class="card-body">
+								<div class="row align-items-center">
 									<table class="table">
 										<tr>
 											<th>No</th>
